@@ -1,0 +1,5 @@
+[
+  {"source": "operator_a", "period": "2026-03", "grain": "device", "device_id": "IMEI-001", "network": "5G"},
+  {"source": "sample_platform", "period": "2026-03", "grain": "device", "device_id": "IMEI-001", "network": "5G"},
+  {"source": "iot_registry", "period": "2026-03", "grain": "account_total", "device_id": null, "count": 1200}
+]
