@@ -1,0 +1,5 @@
+[
+  {"device_id": "IMEI-1001", "imsi": null, "network": "5G", "sample_batch": "SP-0402"},
+  {"device_id": null, "imsi": "IMSI-9003", "network": "4G", "sample_batch": "SP-0407", "roaming": true, "note": "平台换卡同步延迟，4 月仍观测到旧 IMSI-9003"},
+  {"device_id": "IMEI-2002", "imsi": null, "network": "4G", "sample_batch": "SP-0409"}
+]

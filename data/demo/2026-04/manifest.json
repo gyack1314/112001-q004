@@ -1,0 +1,34 @@
+{
+  "period": "2026-04",
+  "description": "2026 年 4 月常规月度来源（虚构演练数据）",
+  "files": [
+    {
+      "file": "operator_a_devices.json",
+      "source": "operator_a",
+      "grain": "device",
+      "field_map": {"device_id": "device_id", "imsi": "imsi", "iccid": "iccid", "network": "network"},
+      "description": "运营商账面终端明细"
+    },
+    {
+      "file": "sample_platform_observations.json",
+      "source": "sample_platform",
+      "grain": "device",
+      "field_map": {"device_id": "device_id", "imsi": "imsi", "network": "network"},
+      "description": "平台采样观测（交叉观测来源）"
+    },
+    {
+      "file": "iot_registry_devices.json",
+      "source": "iot_registry",
+      "grain": "device",
+      "field_map": {"device_id": "device_id", "imsi": "imsi", "iccid": "iccid", "network": "network"},
+      "description": "物联网业务清单终端明细"
+    },
+    {
+      "file": "iot_registry_account_totals.json",
+      "source": "iot_registry",
+      "grain": "account_total",
+      "field_map": {"count": "count", "account_ref": "account_ref"},
+      "description": "物联网账号汇总数（无逐终端明细）"
+    }
+  ]
+}

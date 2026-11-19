@@ -1,0 +1,5 @@
+[
+  {"device_id": "IMEI-3001", "imsi": null, "iccid": "ICCID-5001", "network": "NB-IoT"},
+  {"device_id": "IMEI-3003", "imsi": null, "iccid": "ICCID-5003", "network": "NB-IoT"},
+  {"device_id": null, "imsi": null, "iccid": "ICCID-5099", "network": "NB-IoT"}
+]

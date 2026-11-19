@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "description": "v1 初始口径（外部文件版本，与内置 v1 内容一致，供 --caliber-file 演示）",
+  "source_roles": {
+    "operator_a": {"role": "additive_population", "note": "运营商账面，终端级明细，代表可相加对象"},
+    "iot_registry": {"role": "additive_population", "note": "物联网业务清单明细，终端级，代表可相加对象"},
+    "sample_platform": {"role": "cross_observation", "note": "平台采样，交叉观测，绝不与账面相加"}
+  },
+  "aggregate_roles": {
+    "iot_registry": {"grain": "account_total", "role": "constraint", "note": "只有汇总数，作为覆盖约束对照"}
+  },
+  "identity_policy": {
+    "merge_requires_explicit_evidence": true,
+    "name_similarity_merge": false,
+    "unmatched_observation_status": "undetermined",
+    "source_specific": {
+      "iot_registry": {"iccid_only_status": "undetermined"}
+    }
+  }
+}

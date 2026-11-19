@@ -1,0 +1,7 @@
+[
+  {"device_id": "IMEI-1001", "imsi": null, "network": "5G", "sample_batch": "SP-0310"},
+  {"device_id": null, "imsi": "IMSI-9003", "network": "4G", "sample_batch": "SP-0311", "roaming": true},
+  {"device_id": "IMEI-2001", "imsi": null, "network": "4G", "sample_batch": "SP-0312"},
+  {"device_id": "IMEI-2001X", "imsi": null, "network": "4G", "sample_batch": "SP-0312B", "note": "与 IMEI-2001 名称高度相似但来源未提供任何关联证据，不得合并"},
+  {"device_id": "IMEI-1002", "imsi": "IMSI-9002", "network": "5G", "sample_batch": "SP-0313"}
+]

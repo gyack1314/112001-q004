@@ -1,0 +1,21 @@
+{
+  "period": "2026-03",
+  "description": "2026 年 3 月迟到证据批次（2026-04-20 才到达，声明的适用期为 3 月）",
+  "files": [
+    {
+      "file": "march_corrections.json",
+      "source": "operator_a",
+      "grain": "identity_mapping",
+      "field_map": {
+        "mapping_id": "mapping_id",
+        "id_type": "id_type",
+        "id_value": "id_value",
+        "pair_type": "pair_type",
+        "pair_value": "pair_value",
+        "applies_from": "applies_from",
+        "applies_to": "applies_to"
+      },
+      "description": "迟到的显式标识更正"
+    }
+  ]
+}

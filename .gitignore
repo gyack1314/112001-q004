@@ -6,6 +6,9 @@ node_modules/
 venv/
 dist/
 build/
+*.db
+*.sqlite
+*.sqlite3
 coverage/
 __pycache__/
 *.py[cod]

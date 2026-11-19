@@ -1,0 +1,37 @@
+{
+  "period": "2026-04",
+  "description": "2026 年 4 月 SIM 更换映射证据批次",
+  "files": [
+    {
+      "file": "april_sim_swap.json",
+      "source": "operator_a",
+      "grain": "identity_mapping",
+      "field_map": {
+        "mapping_id": "mapping_id",
+        "id_type": "id_type",
+        "id_value": "id_value",
+        "pair_type": "pair_type",
+        "pair_value": "pair_value",
+        "applies_from": "applies_from",
+        "applies_to": "applies_to"
+      },
+      "description": "运营商 SIM 更换工单映射"
+    },
+    {
+      "file": "march_corrections.json",
+      "source": "operator_a",
+      "grain": "identity_mapping",
+      "field_map": {
+        "mapping_id": "mapping_id",
+        "id_type": "id_type",
+        "id_value": "id_value",
+        "pair_type": "pair_type",
+        "pair_value": "pair_value",
+        "applies_from": "applies_from",
+        "applies_to": "applies_to"
+      },
+      "description": "同批送达、对 4 月仍适用的物联网补录（3 月漫游映射因适用区间在 4 月自动失效）",
+      "path": "march_corrections.json"
+    }
+  ]
+}

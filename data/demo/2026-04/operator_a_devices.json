@@ -1,0 +1,7 @@
+[
+  {"device_id": "IMEI-1001", "imsi": "IMSI-9001", "iccid": null, "network": "5G"},
+  {"device_id": "IMEI-1002", "imsi": "IMSI-9002", "iccid": null, "network": "5G"},
+  {"device_id": "IMEI-1003", "imsi": "IMSI-9103", "iccid": null, "network": "4G", "note": "换 SIM 后 IMSI 由 IMSI-9003 变更为 IMSI-9103"},
+  {"device_id": "IMEI-1004", "imsi": "IMSI-9004", "iccid": null, "network": "4G"},
+  {"device_id": "IMEI-1005", "imsi": "IMSI-9005", "iccid": null, "network": "5G"}
+]

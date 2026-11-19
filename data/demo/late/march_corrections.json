@@ -1,0 +1,22 @@
+[
+  {
+    "mapping_id": "MAP-MAR-01",
+    "id_type": "imsi",
+    "id_value": "IMSI-9003",
+    "pair_type": "device_id",
+    "pair_value": "IMEI-1003",
+    "applies_from": "2026-03-01",
+    "applies_to": "2026-03-31",
+    "note": "迟到的运营商更正：3 月平台采样中的漫游 IMSI 属于账面终端 IMEI-1003"
+  },
+  {
+    "mapping_id": "MAP-MAR-02",
+    "id_type": "iccid",
+    "id_value": "ICCID-5099",
+    "pair_type": "device_id",
+    "pair_value": "IMEI-3002",
+    "applies_from": "2026-03-01",
+    "applies_to": "2026-12-31",
+    "note": "迟到的物联网台账补录：孤儿 ICCID-5099 与已在册终端 IMEI-3002 为同一终端"
+  }
+]

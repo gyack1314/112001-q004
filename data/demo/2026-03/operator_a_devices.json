@@ -1,0 +1,6 @@
+[
+  {"device_id": "IMEI-1001", "imsi": "IMSI-9001", "iccid": null, "network": "5G"},
+  {"device_id": "IMEI-1002", "imsi": "IMSI-9002", "iccid": null, "network": "5G"},
+  {"device_id": "IMEI-1003", "imsi": "IMSI-9003", "iccid": null, "network": "4G"},
+  {"device_id": "IMEI-1004", "imsi": "IMSI-9004", "iccid": null, "network": "4G"}
+]

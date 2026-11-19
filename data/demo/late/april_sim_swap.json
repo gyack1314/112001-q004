@@ -1,0 +1,12 @@
+[
+  {
+    "mapping_id": "MAP-APR-01",
+    "id_type": "imsi",
+    "id_value": "IMSI-9003",
+    "pair_type": "imsi",
+    "pair_value": "IMSI-9103",
+    "applies_from": "2026-04-01",
+    "applies_to": "2026-04-30",
+    "note": "运营商 SIM 更换工单：同一终端 IMEI-1003 的新旧 IMSI 映射"
+  }
+]
